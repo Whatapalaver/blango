@@ -12,6 +12,8 @@
         {{ post.content|safe }}
     {% endcol %}
 {% endrow %}
+<!-- Comment Form -->
+{% include "blog/post-comments.html" %}
 {% row %}
     {% col %}
         {% recent_posts post %}
